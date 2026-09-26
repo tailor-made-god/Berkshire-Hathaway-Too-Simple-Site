@@ -2,6 +2,15 @@ body {
   color: #000080;
 }
 
+a:link {
+  color: #800080;
+}
+
+a:visited,
+a:active {
+  color: #ff0000;
+}
+
 .header {
   text-align: center;
   margin-block-end: 1rem;
@@ -31,11 +40,62 @@ h2 {
   margin: 0;
 }
 
+.firstbreak {
+  margin-block-end: 0;
+}
+
 .hero {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-inline: 4rem;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  height: 2.6rem;
+  margin-block: 1rem;
+}
+
+.updated {
+  font-size: 0.625rem;
+  margin-block: 0.25rem 0;
+}
+
+.secondbreak {
+  margin-block-end: 1rem;
+}
+.logo {
+  display: block;
+  margin-inline: auto;
 }
 
 .ins {
+  font-size: 0.625rem;
   text-align: center;
+  margin-block-start: 0.15rem;
+}
+
+.thirdbreak {
+  margin-block: 1rem;
+}
+
+.feedback {
+  font-size: 0.8125rem;
+  margin: 0;
+}
+
+.fourthbreak {
+  margin-block: 1rem;
+}
+
+.legal {
+  font-size: 0.8125rem;
+}
+
+.copyright {
+  font-size: 0.8125rem;
+  margin-block: 1rem;
 }
